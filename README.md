@@ -8,11 +8,11 @@ Name: Rodgers Mutua Github: RodgersMM
 Delani studio is a website that is designed using jQuer javascript framework. 
 
 
-#Project setup Instructions
+##Project setup Instructions
 You can fork this application and improve as you wish.
 
 #Link to live site on GitHub Pages
-https://github.com/RodgersMM/Delani-Studio/
+https://rodgersmm.github.io/Delani-Studio/
 
 #copyright and license information
 All rights reserved @2022 RodgersMM

@@ -2,3 +2,18 @@
     text-align: center;
     align-content: center;
 }
+
+#studio{
+          
+    background-image: url("./assets/backgrounds/h_img.jpg");
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   
+
+}
+
+#aboutus{
+    background-image: url("./assets/backgrounds/s_image.jpg");
+}
