@@ -14,10 +14,8 @@
 #studio{
           
     background-image: url("./assets/backgrounds/h_img.jpg");
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    
+    
    
 
 }
