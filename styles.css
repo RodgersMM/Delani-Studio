@@ -48,3 +48,15 @@
     
     
 }
+
+.portfolio{
+   
+    display: grid;
+    grid-template-columns: auto;
+    
+    
+}
+
+.portfolio-item{
+    display: grid;
+}
