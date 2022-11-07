@@ -17,3 +17,13 @@
 #aboutus{
     background-image: url("./assets/backgrounds/s_image.jpg");
 }
+
+.whatwedo{
+    display: flex;
+    flex-basis: 100%;
+    
+}
+
+.whatwedoitems{
+    flex-basis: 100%;
+}
