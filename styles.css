@@ -1,7 +1,7 @@
 .body{
-    max-width: 80%;
+   
     box-sizing: border-box;
-    margin: 10px 50px;
+ 
 
 }
 
@@ -11,9 +11,10 @@
     align-content: center;
 }
 
-#studio{
+.studio{
           
     background-image: url("./assets/backgrounds/h_img.jpg");
+    min-height:60vh;
     color: white;
     text-align: center;
 
@@ -53,8 +54,7 @@
 }
 
 .portfolio{
-   
-    display: grid;
+       display: grid;
     grid-template-columns: auto auto auto auto;
     
     
@@ -75,6 +75,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0 40px;
 }
 
 .copyright{
