@@ -6,7 +6,7 @@
 }
 
 
-.h1{
+.h1 {
     text-align: center;
     align-content: center;
 }
@@ -15,9 +15,10 @@
           
     background-image: url("./assets/backgrounds/h_img.jpg");
     
-    
-   
-
+}
+.aboutus{
+    text-align: center;
+    align-content: center;
 }
 
 #services{
