@@ -63,3 +63,16 @@
 .portfolio-item{
     display: grid;
 }
+
+.social-media{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    align-items: center;
+    align-content: space-around;
+}
+
+.social-media-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
