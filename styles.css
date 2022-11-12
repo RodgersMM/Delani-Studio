@@ -98,4 +98,22 @@
 .contactus{
     background-color: darkslategrey;
     background-image: url("./assets/backgrounds/c_image.jpg");
+    height: 500px; 
+    width: 100%
+
+}
+.form{
+    align-content: center;
+}
+
+.explain{
+    width: 60%;
+    height: 180px;
+    align-self: auto;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.form{
+    text-align: center;
 }
