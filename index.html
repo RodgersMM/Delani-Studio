@@ -23,6 +23,12 @@
         });
       });
 
+      $(document).ready(function(){
+        $("#prop").click(function(){
+          $(".prop").toggle();
+        });
+      });
+
 
     </script>
 
@@ -111,7 +117,7 @@
             </p>
         </div>
         <div class="whatwedoitems" id="prodev">
-            <img src="./assets/services_icons/product_icon.png" alt="product Development" class="prop">
+            <img src="./assets/services_icons/product_icon.png" alt="product Development" id="prop">
             <figcaption>PRODUCT MANAGEMENT</figcaption>
             <p class="prop">
                 Planning and development is iterative. Because we are constantly coding and testing,
