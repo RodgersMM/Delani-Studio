@@ -12,11 +12,12 @@
     
     <script>
     $(document).ready(function(){
-        $("#welcome").click(function(){
-          $("#logo").hide();
+        $("#designp").click(function(){
+          $(".designp").toggle();
         });
-        
       });
+
+      
     </script>
 
 </head>
@@ -79,7 +80,7 @@
     <div class="whatwedo">
         
         <div class="whatwedoitems" id="design">
-            <img src="./assets/services_icons/design_icon.png" alt="design_icon">
+            <img src="./assets/services_icons/design_icon.png" alt="design_icon" id="designp">
             <figcaption>DESIGN</figcaption>
             <p class="designp"> 
                 Our design practise offers a full range of services including 
@@ -92,7 +93,7 @@
             </p>
         </div>
         <div class="whatwedoitems" id="dev">
-            <img src="./assets/services_icons/dev_icon.png" alt="dev_icon">
+            <img src="./assets/services_icons/dev_icon.png" alt="dev_icon" id="devp">
             <figcaption>DEVELOPMENT</figcaption>
             <p class="devp">
                 All engineer are fluent in the latest enterprise, mobile,
@@ -104,7 +105,7 @@
             </p>
         </div>
         <div class="whatwedoitems" id="prodev">
-            <img src="./assets/services_icons/product_icon.png" alt="product Development">
+            <img src="./assets/services_icons/product_icon.png" alt="product Development" class="prop">
             <figcaption>PRODUCT MANAGEMENT</figcaption>
             <p class="prop">
                 Planning and development is iterative. Because we are constantly coding and testing,
