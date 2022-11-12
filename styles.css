@@ -87,6 +87,15 @@
     text-align: center;
 }
 
-.designp, .devp, .prop {
+.designp, .devp, .prop{
     text-align: center;
+}
+
+.wwd{
+    align-content: center;
+}
+
+.contactus{
+    background-color: darkslategrey;
+    background-image: url("./assets/backgrounds/c_image.jpg");
 }
