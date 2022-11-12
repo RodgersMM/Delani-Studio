@@ -46,10 +46,12 @@
     
 }
 
+
 .whatwedoitems{
     
     flex-basis: 100%;
-    justify-content: space-around;
+    justify-content: center;
+    
     
     
     
@@ -82,5 +84,9 @@
 
 .copyright{
   
+    text-align: center;
+}
+
+.designp, .devp, .prop {
     text-align: center;
 }
