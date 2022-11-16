@@ -12,7 +12,7 @@ Delani studio is a website that is designed using jQuer javascript framework.
 You can fork this application and improve as you wish.
 
 ## Link to live site on GitHub Pages
-https://rodgersmm.github.io/Delani-Studio/
+https://rodgersmm.github.io/Quiz-Board/
 
 # copyright and license information
 All rights reserved @2022 RodgersMM

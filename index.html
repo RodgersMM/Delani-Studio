@@ -12,22 +12,57 @@
     
     <script>
     $(document).ready(function(){
-        $("#designp").click(function(){
-          $(".designp").toggle();
-        });
+        $("#designimg").click(function(){
+        $("#designimg").toggle();
+        $(".designp").show();
+        })
       });
 
       $(document).ready(function(){
-        $("#devp").click(function(){
-          $(".devp").toggle();
-        });
+        $("#designfig").click(function(){
+        $("#designimg").show();
+        $(".designp").toggle();
+        })
+      });
+
+
+
+
+
+      $(document).ready(function(){
+        $("#devimg").click(function(){
+        $("#devimg").toggle();
+        $(".devp").show();
+        })
       });
 
       $(document).ready(function(){
-        $("#prop").click(function(){
-          $(".prop").toggle();
-        });
+        $("#devfig").click(function(){
+        $("#devimg").show();
+        $(".devp").toggle();
+        })
       });
+
+
+     
+     
+
+      $(document).ready(function(){
+        $("#propimg").click(function(){
+        $("#propimg").toggle();
+        $(".propp").show();
+        })
+      });
+
+      $(document).ready(function(){
+        $("#propfig").click(function(){
+        $("#propimg").show();
+        $(".propp").toggle();
+        })
+      });
+
+
+      
 
       
     </script>
@@ -92,8 +127,8 @@
     <div class="whatwedo">
         
         <div class="whatwedoitems" id="design">
-            <img src="./assets/services_icons/design_icon.png" alt="design_icon" id="designp" class="wwd">
-            <figcaption>DESIGN</figcaption>
+            <img src="./assets/services_icons/design_icon.png" alt="design_icon" id="designimg" class="design">
+            <figcaption id="designfig">DESIGN</figcaption>
             <p class="designp"> 
                 Our design practise offers a full range of services including 
                 brand strategiey, interaction and visual design and user experience
@@ -105,8 +140,8 @@
             </p>
         </div>
         <div class="whatwedoitems" id="dev">
-            <img src="./assets/services_icons/dev_icon.png" alt="dev_icon" id="devp" class="wwd">
-            <figcaption>DEVELOPMENT</figcaption>
+            <img src="./assets/services_icons/dev_icon.png" alt="dev_icon" id="devimg" class="devimg">
+            <figcaption id="devfig">DEVELOPMENT</figcaption>
             <p class="devp">
                 All engineer are fluent in the latest enterprise, mobile,
                 and web development technologies. 
@@ -117,13 +152,13 @@
             </p>
         </div>
         <div class="whatwedoitems" id="prodev">
-            <img src="./assets/services_icons/product_icon.png" alt="product Development" id="prop" class="wwd">
-            <figcaption>PRODUCT MANAGEMENT</figcaption>
-            <p class="prop">
+            <img src="./assets/services_icons/product_icon.png" alt="product Development" id="propimg" class="wwd">
+            <figcaption id="propfig">PRODUCT MANAGEMENT</figcaption>
+            <p class="propp">
                 Planning and development is iterative. Because we are constantly coding and testing,
                 the products we build are always ready to go live.
             </p>
-            <p class="prop">
+            <p class="propp">
                 The iterative process allow for change as business requirments evolve. 
             </p>
         </div>
