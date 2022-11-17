@@ -1,12 +1,16 @@
-.body{
-   
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+*(
     box-sizing: border-box;
+)
+
+body{
     margin: 0;
     padding: 0;
- 
-
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 
 .h1 {
     text-align: center;
@@ -42,38 +46,39 @@
 .whatwedo{
     display: flex;
     flex-basis: 100%;
-    
-    
-    
+        
 }
 
 
 .whatwedoitems{
     
     flex-basis: 100%;
-    justify-content: center;
-    
-    
+    justify-content: space-around;
+  
     
     
 }
 
 .portfolio{
-     display: grid;
-    grid-template-columns: auto auto auto auto;
-    max-width: 100vw;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   /* grid-template-columns: auto auto auto auto;
+    max-width: 80%; */
+   
     
-   /* display: flex;
+   /*display: flex;
     flex-wrap: wrap;
-    flex-basis: 100%; */
+    flex-basis: 100%;  */
  
     
     
 }
 
 .portfolio-item{
-    display: grid;
-    align-content: center;
+    /*display: grid;
+    align-content: center; */
+    display: flex;
+
     
 }
 
