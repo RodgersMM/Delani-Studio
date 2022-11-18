@@ -2,9 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 
-*(
+*{
     box-sizing: border-box;
-)
+}
 
 body{
     margin: 0;
@@ -64,6 +64,9 @@ body{
    grid-template-columns: repeat(4, 1fr);
    /* grid-template-columns: auto auto auto auto;
     max-width: 80%; */
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
    
     
    /*display: flex;
@@ -78,6 +81,7 @@ body{
     /*display: grid;
     align-content: center; */
     display: flex;
+    
 
     
 }
@@ -110,8 +114,10 @@ body{
 }
 
 .contactus{
-    background-color: darkslategrey;
+   
     background-image: url("./assets/backgrounds/c_image.jpg");
+    justify-content: center;
+
     height: 500px; 
     width: 100%
 
@@ -120,7 +126,7 @@ body{
     align-content: center;
 }
 
-.explain{
+.textarea{
     width: 60%;
     height: 180px;
     align-self: auto;
@@ -131,3 +137,64 @@ body{
 .form{
     text-align: center;
 }
+
+.center{
+ align-self: center;
+ margin-left: 10px;
+ margin-right: 10px;
+}
+
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 4px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
