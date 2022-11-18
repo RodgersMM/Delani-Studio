@@ -144,7 +144,7 @@ body{
  margin-right: 10px;
 }
 
-
+/* Portfolio Grid */
 /* Center website */
 .main {
     max-width: 1000px;
@@ -163,7 +163,7 @@ body{
   /* Add padding BETWEEN each column */
   .row,
   .row > .column {
-    padding: 4px;
+    padding: 2px;
   }
   
   /* Create four equal columns that floats next to each other */
@@ -198,3 +198,21 @@ body{
       width: 100%;
     }
   }
+
+
+  .content {
+    float: left;
+    position: relative;
+    margin: 5px;
+    color: #333;
+  }
+  .content .image-caption {
+    display: none;
+    opacity: 0.8;
+    background:#cae5c1;
+    width: 270px;
+    position: absolute;
+    bottom: 0px;
+    padding: 5px;
+  }
+  

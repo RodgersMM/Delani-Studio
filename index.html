@@ -60,7 +60,18 @@
       });
 
 
-      
+    $(document).ready(function() {
+    $('.content').hover(function(){
+		$('.image-caption',this).slideToggle('slow');
+
+	}, function(){
+		$('.image-caption',this).slideToggle('slow');
+    });
+});
+
+
+
+
 
       
     </script>
@@ -163,32 +174,46 @@
         </div>
     </div>
 
-    <h1 class="h1" id="portfolio">PORTFOLIO</h1>
+    /usr/share/code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html
 
-    <!-- Portfolio Gallery Grid -->
+<!-- Portfolio Gallery Grid -->
+
+<h1 class="h1" id="portfolio">PORTFOLIO</h1>
 
 <div class="main">
     <div class="row">
         <div class="column">
             <div class="content">
               <img src="./assets/portfolio/work4.jpg" alt="work4" style="width:100%">
+                <div class="image-caption">
+                    <h2>A dark theme</h2>
+                </div>
             </div>
         </div>
         <div class="column">
             <div class="content">
                 <img src="./assets/portfolio/work3.jpg" alt="work3" style="width:100%">
+                <div class="image-caption">
+                    <h2>A company logo</h2>
+                </div>
             </div>
         </div>
 
         <div class="column">
             <div class="content">
                <img src="./assets/portfolio/work2.jpg" alt="work2" style="width:100%">
+               <div class="image-caption">
+                <h2>Background color</h2>
+            </div>
             </div>
         </div>
 
         <div class="column">
            <div class="content">
              <img src="./assets/portfolio/work1.jpg" alt="work1" style="width:100%">
+             <div class="image-caption">
+                <h2>A blog website</h2>
+            </div>
             </div>
         </div>
     </div>
@@ -197,24 +222,36 @@
         <div class="column">
             <div class="content">
               <img src="./assets/portfolio/work5.jpg" alt="work5" style="width:100%">
+              <div class="image-caption">
+                <h2>A Landing page</h2>
+            </div>
             </div>
         </div>
 
         <div class="column">
             <div class="content">
              <img src="./assets/portfolio/work6.jpg" alt="work6" style="width:100%">
+             <div class="image-caption">
+                <h2>An order form</h2>
+            </div>
             </div>
         </div>
 
         <div class="column">
             <div class="content">
               <img src="./assets/portfolio/work7.jpg" alt="work7" style="width:100%">
+              <div class="image-caption">
+                <h2>A company logo</h2>
+            </div>
             </div>
         </div>
     
         <div class="column">
             <div class="content">
               <img src="./assets/portfolio/work8.jpg" alt="work8" style="width:100%">
+              <div class="image-caption">
+                <h2>A company logo</h2>
+            </div>
             </div>
         </div>  
     </div>
@@ -224,7 +261,7 @@
   
 
     <div class="contactus" v>
-        <h1 class="h1" id="contacts">CONTACTS US</h1>
+        <h1 class="h1" id="contacts">CONTACT US</h1>
         
         <form action="" class="form" onmouseleave="return validateForm()">
             <label for="name" >Name: </label>
