@@ -16,7 +16,7 @@
         $("#designimg").toggle();
         $(".designp").show();
         })
-      });
+     });
 
       $(document).ready(function(){
         $("#designfig").click(function(){
@@ -80,9 +80,9 @@
 <body>
  
 
-    <div class="studio">
+    <div class="studio"  >
         <div class="logo" id="logo">
-            <img src="./assets/logo/logo.png" alt="logo">
+            <img src="./assets/logo/logo.png" alt="logo" id="logoimg">
         </div>
 
         
@@ -259,17 +259,17 @@
   <!-- END GRID -->
  
   
-
-    <div class="contactus" v>
-        <h1 class="h1" id="contacts">CONTACT US</h1>
+<!-- CONTACT US SECTION-->
+    <div class="contactus" id="contactus">
+        <h1 class="h1 cfont" id="contacts">CONTACT US</h1>
         
-        <form action="" class="form" onmouseleave="return validateForm()">
-            <label for="name" >Name: </label>
+        <form action="" class="form" onblur="return validateForm()">
+            <label for="name" id="" class="cfont" >Name: </label>
             <input type="text" name="=name" id="name" placeholder="Name..." required>
-            <label for="email">Email: </label>
+            <label for="email" class="cfont">Email: </label>
             <input type="email" name="email" id="email" placeholder="Email..." required>
             <br>
-            <textarea placeholder="Your message here..." class="textarea" onmouseleave="thankYou()" >
+            <textarea placeholder="Your message here..." class="textarea" onmouseblur="thankYou()" >
                 
             </textarea>
         </form>
@@ -277,40 +277,52 @@
     </div>
 
 
-  <div class="social-media" id="social-media">
-    <div class="social-media-item">
-        <img src="./assets/social_icons/twitter.png" alt="twitter">
+    <!-- SOCIAL MEDIA SECTION-->
+
+    <div class="social-media" id="social-media">
+        <div class="social-media-item">
+          <img src="./assets/social_icons/twitter.png" alt="twitter">
+        </div>
+
+        <div class="social-media-item">
+          <img src="./assets/social_icons/dribble.png" alt="dribble">
+        </div>
+
+        <div class="social-media-item">
+          <img src="./assets/social_icons/facebook.png" alt="facebook">
+        </div>
+
+        <div class="social-media-item">
+          <img src="./assets/social_icons/g_plus.png" alt="Google Plus">
+        </div>
+
+        <div class="social-media-item">
+          <img src="./assets/social_icons/skype.png" alt="skype">
+        </div>
+
+        <div class="social-media-item">
+          <img src="./assets/social_icons/stumble_upon.png " alt="Stumble Upon ">
+        </div>
+
+        <div class="social-media-item">
+           <img src="./assets/social_icons/behance.png" alt=" Behance">
+        </div>
+
+        <div class="social-media-item">
+         <img src="./assets/social_icons/pinterest.png " alt="pinterest">
+        </div>
+
+        <div class="social-media-item">
+           <img src="./assets/social_icons/flickr.png " alt="flickr">
+        </div>
     </div>
-    <div class="social-media-item">
-        <img src="./assets/social_icons/dribble.png" alt="dribble">
-    </div>
-    <div class="social-media-item">
-        <img src="./assets/social_icons/facebook.png" alt="facebook">
-    </div>
-    <div class="social-media-item">
-        <img src="./assets/social_icons/g_plus.png" alt="Google Plus">
-    </div>
-    <div class="social-media-item">
-        <img src="./assets/social_icons/skype.png" alt="skype">
-    </div>
-    <div class="social-media-item">
-        <img src="./assets/social_icons/stumble_upon.png " alt="Stumble Upon ">
-    </div>
-    <div class="social-media-item">
-        <img src="./assets/social_icons/behance.png" alt=" Behance">
-    </div>
-    <div class="social-media-item">
-        <img src="./assets/social_icons/pinterest.png " alt="pinterest">
-    </div>
-    <div class="social-media-item">
-        <img src="./assets/social_icons/flickr.png " alt="flickr">
-    </div>
-</div>
+
+<!--COPYRIGHT SECTIONS-->
 
    <div class="copyright" id="copyright">
 
-    <p>DELANI STUDIO</p>
-    <P>2022</P>
+    <h3>DELANI STUDIO</h3>
+    <h4>2022</h4>
 </div>
     
 </body>

@@ -1,0 +1,48 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script>
+    $(document).ready(function() {
+	$('#name').on('keypress', function(key) {
+		if((key.charCode < 97 || key.charCode > 122) && (key.charCode < 65 || key.charCode > 90) && (key.charCode != 45)) {
+			return false;	
+		}
+	});
+	$('#phone').on('keypress', function(key) {
+        if(key.charCode < 48 || key.charCode > 57) {
+			return false;
+		}
+    });
+});
+    </script>
+</head>
+<body>
+
+
+    <form id="frm" method="post">
+        <div class="input-group">Name <span class="name-validation validation-error"></span></div>
+        <div>
+             <input type="text" name="name" id="name" class="input-control" onblur="validate()" />
+        </div>
+         
+        <div class="input-group">Phone <span class="phone-validation validation-error"></span></div>
+        <div>
+             <input type="text" name="phone" id="phone" class="input-control" onblur="validate()" />
+        </div>
+     
+        <div>
+             <button type="submit" name="btn-submit" id="btn-submit" disabled="disabled">Submit</button>
+         </div>
+     </form>
+    
+</body>
+</html>
