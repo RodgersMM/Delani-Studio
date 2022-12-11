@@ -89,19 +89,38 @@ body{
 }
 
 .social-media{
+  display: flex;
+  justify-content: center;
+  /*
+
+  <other options include:
+  display:flex ;
+  justify-content:flex-start;
+  justify-content:flex-end;
+  justify-content:space-between;
+  justify-content:space-around;
+  justify-content:space-evenly;
+  
+  Below could achieve the same results as above but with alot of codes.
+  The best would be display flex over display grid. 
+  Then justfy-content:center 
+  Then we display flex to the main class not individual items
+
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto auto;
     align-items: center;
     align-content: space-around;
+    margin:0, auto;
+    width: 50%;
+   */
 }
-
+/* Below wont yield anything. Display:flex should be to the main class. 
 .social-media-item{
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 0 40px;
+    
 }
-
+*/
 .copyright{
   
     text-align: center;
@@ -231,3 +250,38 @@ body{
   .social-media-item{
     align-items:center;
   }
+
+  /* Non-empty form */
+
+  li {list-style-type: none;
+    font-size: 16pt;
+    }
+    .mail {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 400px;
+    background : 
+    #D8F1F8;
+    border: 1px soild 
+    silver;
+    }
+    .mail h2 {
+    margin-left: 38px;
+    }
+    input {
+    font-size: 20pt;
+    }
+    input:focus, textarea:focus{
+    background-color: 
+    lightyellow;
+    }
+    input submit {
+    font-size: 12pt;
+    }
+    .rq {
+    color: 
+    #FF0000;
+    font-size: 10pt;
+    }
+    
